@@ -6,6 +6,6 @@ Packages can be found under the releases section, appropriately tagged.
 
 To install a package with npm, use the following command:
 
-```js
+```
 npm i bimspot/bimspot-package-registry#releaseName
 ```
