@@ -1,0 +1,49 @@
+{
+  "name": "xeokit-react",
+  "version": "0.1.4",
+  "description": "",
+  "main": "build/xeokit-react.js",
+  "scripts": {
+    "prettier-check": "cross-env prettier --check './**/*.js'",
+    "prettier-format": "prettier --write ./**/*.js",
+    "lint": "./node_modules/.bin/eslint *.js",
+    "lint-fix": "./node_modules/.bin/eslint *.js --fix",
+    "dev": "./node_modules/.bin/webpack --watch --mode=production",
+    "build": "./node_modules/.bin/webpack --mode=production"
+  },
+  "keywords": [
+    "xeokit",
+    "xeokit-sdk",
+    "reactjs",
+    "react",
+    "bim",
+    "gltf"
+  ],
+  "author": "BIM SPOT GmbH",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.0",
+    "eslint": "^6.4.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "prettier": "^1.18.2",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "xeokit-sdk": "github:xeokit/xeokit-sdk"
+  },
+  "dependencies": {
+    "lodash.difference": "^4.5.0",
+    "prop-types": "^15.7.2"
+  },
+  "files": [
+    "/build"
+  ]
+}
