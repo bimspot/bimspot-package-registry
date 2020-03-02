@@ -1,6 +1,6 @@
 # BIMspot public package registry
 
-This repo currently serves as the public package registry of [BIMspot](https://bimspot.io/). More specifically, it is for packages that are under active development and are not yet ready for an npm release.
+This repo currently serves as the public package registry of [BIMspot](https://bimspot.io/). More specifically, it is for packages that are under active development and are not yet ready for an npm release (for instance, the xeokit-react package).
 
 Packages can be found under the releases section, appropriately tagged.
 
